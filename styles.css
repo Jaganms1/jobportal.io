@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+h2{
+    font-family: sans-serif;
+    color: blue;
+    text-align: center;
+}
+#main-nav{
+    display: flex;
+
+    
+}
+#navbar{ 
+    width: 30%;
+}
+#navbar-list{
+    width: 70%;
+
+}
+#navbar-list ol li{
+    list-style: none;
+    display: flex;
+    padding: 25px;
+    float: left;
+    margin:auto 0;
+}
+
+#banner{
+    object-fit: cover;
+
+}
+
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    
+    
+}
+
+#description{
+    width: 50%;
+    padding-right:25px;
+}
+
+#team{
+    width: 50%;
+}
+
+#team-image{
+    border-radius: 6px;
+    width: 100%;
+}
+
+#jobs{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.apply{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#fotter{
+    background-color: lightgray;
+    padding: 8px;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+#fotter-list{
+    list-style: none;
+    text-align: center;
+
+    
+}
+#fotter-list li{
+    padding: 15px;
+    display: inline;
+
+}
+
+.copyright{
+    color: gray;
+    
+}
